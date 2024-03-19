@@ -20,4 +20,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t hariaws123/ec2ithubactions .
     - name: Push to Dockerhub
-      run: docker push hariaws123/ec2ithubactions/latest
+      run: docker push hariaws123/ec2ithubactions
